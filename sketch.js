@@ -11,7 +11,7 @@ function setup() {
     let máximo = width;
     let mínimo = 0;
     
-    let palavra = "sentimento que jamais acabará";
+    let palavra = "sssssssentimento que jamais acabará";
     let quantidade = map(mouseX,0,width,1,palavra.length);
     
     let parcial = palavra.substring (0,quantidade);
