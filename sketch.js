@@ -17,5 +17,8 @@ function setup() {
     let parcial = palavra.substring (0,quantidade);
     text(parcial, 200,200);
     
-    
+    // Exibir a imagem
+  let img = loadImage('spfc.jpg'); // Certifique-se de que o nome da imagem esteja correto
+  image(img, 150, 220); // Ajuste as coordenadas conforme necessário
+        
   }
